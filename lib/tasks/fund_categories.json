@@ -1,0 +1,89 @@
+[
+  {
+    name: '股票型基金',
+    meta: {
+      type2: 2
+    },
+    sub_categories: [
+      {
+        name: '指数型',
+        meta: {
+          type2: 2,
+          type3: 8
+        }
+      },
+      {
+        name: '一般股票型',
+        meta: {
+          type2: 2,
+          type3: 7
+        }
+      },
+    ]
+  },
+  {
+    name: '混合型基金',
+    meta: {
+      type2: 1
+    },
+    sub_categories: [
+      {
+        name: '稳健混合型',
+        meta: {
+          type2: 1,
+          type3: 4
+        }
+      },
+      {
+        name: '激进混合型',
+        meta: {
+          type2: 1,
+          type3: 6
+        }
+      },
+      {
+        name: '保本型',
+        meta: {
+          type2: 1,
+          type3: 9
+        }
+      },
+    ]
+  },
+  {
+    name: '债券型基金',
+    meta: {
+      type2: 3
+    },
+    sub_categories: [
+      {
+        name: '稳健债券型',
+        meta: {
+          type2: 3,
+          type3: 3
+        }
+      },
+      {
+        name: '激进债券型',
+        meta: {
+          type2: 3,
+          type3: 5
+        }
+      },
+      {
+        name: '纯债债券型 ',
+        meta: {
+          type2: 3,
+          type3: 12
+        }
+      },
+      {
+        name: '短期理财',
+        meta: {
+          type2: 3,
+          type3: 21
+        }
+      },
+    ]
+  },
+]
