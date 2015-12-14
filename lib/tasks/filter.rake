@@ -1,4 +1,5 @@
 namespace :fund_filters do
+  desc 'filter all funds with 4433'
   task '4433' do
     hited_funds = []
     Fund.group(:category_id).count.each do |category_id, count|
